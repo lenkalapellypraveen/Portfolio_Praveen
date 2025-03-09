@@ -1,0 +1,250 @@
+.profile-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem 0 3rem;
+    width: 100%;
+    background: linear-gradient(135deg, var(--background-color) 0%, var(--background-alt) 100%);
+  }
+  
+  .profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+  
+  .profile-content {
+    flex: 1;
+    min-width: 300px;
+    max-width: 65%;
+  }
+  
+  .profile-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+  }
+  
+  .role-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .badge.data-scientist {
+    background-color: var(--data-scientist-color);
+  }
+  
+  .badge.data-engineer {
+    background-color: var(--data-engineer-color);
+  }
+  
+  .badge.ai-engineer {
+    background-color: var(--ai-engineer-color);
+  }
+  
+  .badge.ml-engineer {
+    background-color: var(--ml-engineer-color);
+  }
+  
+  .badge.cloud-engineer {
+    background-color: var(--cloud-engineer-color);
+  }
+  
+  .profile-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    max-width: 90%;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .social-link.github {
+    background-color: var(--github-color);
+    color: white;
+  }
+  
+  .social-link.linkedin {
+    background-color: var(--linkedin-color);
+    color: white;
+  }
+  
+  .social-link.email {
+    background-color: var(--email-color);
+    color: white;
+  }
+  
+  .social-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px var(--shadow-color);
+    opacity: 0.9;
+  }
+  
+  .profile-image {
+    flex: 0 0 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+  }
+  
+  .profile-placeholder {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: var(--background-alt);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 30px var(--shadow-color);
+    border: 6px solid var(--card-bg);
+  }
+  
+  .initials {
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+  
+  /* Extra large screens (like your gaming laptop) */
+  @media (min-width: 1920px) {
+    .profile-container {
+      width: 85%;
+      max-width: 2000px;
+    }
+    
+    .profile-content {
+      max-width: 70%;
+    }
+    
+    .profile-name {
+      font-size: 3.2rem;
+    }
+    
+    .badge {
+      font-size: 1rem;
+      padding: 0.6rem 1.3rem;
+    }
+    
+    .profile-description {
+      font-size: 1.3rem;
+      max-width: 90%;
+    }
+    
+    .profile-image {
+      flex: 0 0 350px;
+    }
+    
+    .profile-placeholder {
+      width: 350px;
+      height: 350px;
+    }
+    
+    .initials {
+      font-size: 7rem;
+    }
+  }
+  
+  /* Large screens */
+  @media (min-width: 1400px) and (max-width: 1919px) {
+    .profile-container {
+      width: 90%;
+    }
+    
+    .profile-content {
+      max-width: 65%;
+    }
+  }
+  
+  /* Medium screens */
+  @media (max-width: 1200px) {
+    .profile-container {
+      justify-content: center;
+    }
+    
+    .profile-content {
+      text-align: center;
+      max-width: 100%;
+    }
+    
+    .profile-description {
+      max-width: 100%;
+    }
+    
+    .role-badges {
+      justify-content: center;
+    }
+    
+    .social-links {
+      justify-content: center;
+    }
+    
+    .profile-image {
+      margin-right: 0;
+    }
+  }
+  
+  /* Small screens */
+  @media (max-width: 768px) {
+    .profile-section {
+      padding: 5rem 1rem 3rem;
+    }
+    
+    .profile-container {
+      flex-direction: column-reverse;
+      gap: 2rem;
+      width: 95%;
+    }
+    
+    .profile-image {
+      flex: 0 0 auto;
+    }
+    
+    .profile-placeholder {
+      width: 200px;
+      height: 200px;
+    }
+    
+    .initials {
+      font-size: 4rem;
+    }
+    
+    .profile-name {
+      font-size: 2rem;
+      text-align: center;
+    }
+  }

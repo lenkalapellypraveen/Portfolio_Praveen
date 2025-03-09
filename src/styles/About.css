@@ -1,0 +1,115 @@
+.about-section {
+  background-color: var(--background-alt);
+  width: 100%;
+}
+
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--text-color);
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 3px;
+  background-color: var(--primary-color);
+}
+
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-color);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.focus-card {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px var(--shadow-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 3px solid var(--primary-color); /* Default border color */
+  overflow: hidden;
+}
+
+.focus-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px var(--shadow-color);
+}
+
+.focus-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.focus-card p {
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+/* Card theme variations - alternative to inline styles */
+.focus-card.working {
+  border-top-color: var(--data-scientist-color);
+}
+
+.focus-card.learning {
+  border-top-color: var(--ai-engineer-color);
+}
+
+.focus-card.collaborate {
+  border-top-color: var(--ml-engineer-color);
+}
+
+.focus-card.ask {
+  border-top-color: var(--data-engineer-color);
+}
+
+/* Extra large screens (like gaming laptops) */
+@media (min-width: 1920px) {
+  .about-content {
+    max-width: 1800px;
+  }
+  
+  .focus-grid {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+}
+
+/* Large screens */
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .about-content {
+    max-width: 1400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .focus-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+  
+  .focus-card {
+    padding: 1.2rem;
+  }
+}

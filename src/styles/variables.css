@@ -1,0 +1,42 @@
+:root {
+    /* Light theme variables */
+    --primary-color: #2978B5;
+    --secondary-color: #16A085;
+    --accent-color: #6F42C1;
+    --text-color: #333333;
+    --text-light: #666666;
+    --background-color: #FFFFFF;
+    --background-alt: #F8F9FA;
+    --border-color: #E5E5E5;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --card-bg: #FFFFFF;
+    
+    --data-scientist-color: #2978B5;
+    --data-engineer-color: #C45427;
+    --ai-engineer-color: #6F42C1;
+    --ml-engineer-color: #16A085;
+    --cloud-engineer-color: #607D8B;
+    
+    --github-color: #24292e;
+    --linkedin-color: #0077b5;
+    --email-color: #ea4335;
+  }
+  
+  [data-theme="dark"] {
+    /* Dark theme variables */
+    --primary-color: #4A9FE0;
+    --secondary-color: #20C997;
+    --accent-color: #9D75DB;
+    --text-color: #E1E1E1;
+    --text-light: #AAAAAA;
+    --background-color: #121212;
+    --background-alt: #1E1E1E;
+    --border-color: #333333;
+    --shadow-color: rgba(0, 0, 0, 0.4);
+    --card-bg: #2A2A2A;
+    
+    /* Keep the same badge colors for consistency */
+    --github-color: #383f45;
+    --linkedin-color: #0a66c2;
+    --email-color: #f25c41;
+  }
