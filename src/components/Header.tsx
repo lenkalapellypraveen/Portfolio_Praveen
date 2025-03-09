@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ThemeToggle } from './ThemeToggle';
 import '../styles/Header.css';
-import { BiColor } from 'react-icons/bi';
+// import { BiColor } from 'react-icons/bi';
 
 export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
