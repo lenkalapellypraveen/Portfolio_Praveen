@@ -27,7 +27,7 @@
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 20rem;
+  padding: 0 2rem; /* Reduced padding here */
 }
 
 .logo {
@@ -35,6 +35,7 @@
   flex-direction: column;
   color: var(--text-color);
   padding-left: 0;
+  text-align: left; /* Ensure text is left-aligned */
 }
 
 .logo .name{
@@ -47,11 +48,13 @@
   font-size: 1.8rem;
   font-weight: 700;
   margin: 0;
+  text-align: left; /* Ensure name is left-aligned */
 }
 
 .logo p {
   font-size: 0.9rem;
   color: var(--text-light);
+  text-align: left; /* Ensure title is left-aligned */
 }
 
 .nav-menu {
@@ -123,10 +126,16 @@
 @media (max-width: 768px) {
   .header-container {
     padding: 0 1rem;
+    justify-content: flex-start; /* Align to the start (left) */
+  }
+  
+  .logo {
+    flex-grow: 1; /* Let logo take available space */
   }
   
   .mobile-menu-button {
     display: flex;
+    margin-left: auto; /* Push button to the right */
   }
   
   .nav-menu {
