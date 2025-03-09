@@ -1,0 +1,83 @@
+.theme-toggle {
+  background-color: var(--card-bg, #333);
+  border: 2px solid var(--border-color, #444);
+  cursor: pointer;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 12px;
+  margin-left: 1rem;
+  transition: all 0.3s ease;
+  gap: 8px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.theme-toggle.dark-mode {
+  background-color: #333;
+  border-color: #555;
+}
+
+.theme-toggle.light-mode {
+  background-color: #f0f0f0;
+  border-color: #ddd;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-icon {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.toggle-icon.sun {
+  color: #FFBF00; /* Amber gold color for sun */
+  font-size: 1.3rem;
+}
+
+.toggle-icon.moon {
+  color: #5B5B5B;
+  font-size: 1.3rem;
+}
+
+.theme-toggle.dark-mode .toggle-icon.sun {
+  color: #FFBF00;
+}
+
+.theme-toggle.light-mode .toggle-icon.moon {
+  color: #5B5B5B;
+}
+
+.toggle-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-color, #eee);
+  display: inline-block;
+}
+
+.theme-toggle.light-mode .toggle-text {
+  color: #333;
+}
+
+.theme-toggle.dark-mode .toggle-text {
+  color: #eee;
+}
+
+/* Added focus styles for accessibility */
+.theme-toggle:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+@media (max-width: 768px) {
+  .theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+  }
+}
