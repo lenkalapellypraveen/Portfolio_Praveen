@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ThemeToggle } from './ThemeToggle';
 import '../styles/Header.css';
-import { BiColor } from 'react-icons/bi';
 
 export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -20,11 +19,16 @@ export const Header: React.FC = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
         <div className="logo">
-          <a className='name' href= "#profile"><h1>Praveen Lenkalapelly</h1></a>
+          <a className="name" href="#profile">
+            <h1>Praveen Lenkalapelly</h1>
+          </a>
           <p>Data Scientist</p>
         </div>
         
-        <div className={`mobile-menu-button ${menuOpen ? 'active' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
+        <div 
+          className={`mobile-menu-button ${menuOpen ? 'active' : ''}`} 
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
           <span></span>
           <span></span>
           <span></span>
