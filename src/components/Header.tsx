@@ -22,7 +22,7 @@ export const Header: React.FC = () => {
           <a className="name" href="#profile">
             <h1>Praveen Lenkalapelly</h1>
           </a>
-          <p>Data Scientist</p>
+          <p>Data Engineer</p>
         </div>
         
         <div 

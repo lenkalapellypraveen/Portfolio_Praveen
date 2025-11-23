@@ -10,15 +10,15 @@ export const Profile: React.FC = () => {
           <h1 className="profile-name">Hi, I'm Praveen Lenkalapelly</h1>
           
           <div className="role-badges">
-            <span className="badge data-scientist">Data Scientist</span>
             <span className="badge data-engineer">Data Engineer</span>
-            <span className="badge ai-engineer">AI Engineer</span>
             <span className="badge ml-engineer">Machine Learning Engineer</span>
+            <span className="badge data-scientist">Data Scientist</span>
+            <span className="badge ai-engineer">AI Engineer</span>
             <span className="badge cloud-engineer">Cloud Engineer</span>
           </div>
           
           <p className="profile-description">
-           Seeking data science roles to apply my statistical modeling and ML expertise across healthcare and finance. Ready to translate complex data into actionable business insights that drive measurable growth and strategic decision-making.
+           Seeking data science roles to apply my data engineering, statistical modeling and ML expertise across eCommerce and finance. Ready to translate complex data into actionable business insights that drive measurable growth and strategic decision-making.
           </p>
           
           <div className="social-links">
@@ -28,7 +28,7 @@ export const Profile: React.FC = () => {
             <a href="https://www.linkedin.com/in/praveen-lenkalapelly/" target="_blank" rel="noopener noreferrer" className="social-link linkedin">
               <FaLinkedin /> LinkedIn
             </a>
-            <a href="mailto:praveen.lenkalapelly9@gmail.com" className="social-link email">
+            <a href="mailto:praveen.lenkalapellyusa@gmail.com" className="social-link email">
               <FaEnvelope /> Email
             </a>
           </div>
