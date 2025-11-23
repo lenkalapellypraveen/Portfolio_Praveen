@@ -8,7 +8,7 @@ export const About: React.FC = () => {
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <p className="about-description">
-            Research-oriented Data Scientist with 4+ years of experience implementing statistical models and ML algorithms across healthcare and financial sectors. Proficient in Python, mathematical modeling, and cloud technologies with proven success translating complex data into actionable insights for cross-functional teams.
+            Senior Data Engineer with 5 years of experience designing and optimizing ETL/ELT pipelines across GCP, AWS, and Azure. Expertise in FiveTran, dbt, Airflow, and BigQuery to build reliable, automated data workflows with SLA-driven performance and high data quality. Proven track record reducing processing latency by 40% and improving pipeline scalability. Collaborative partner to data science and analytics teams, driving standards and mentoring engineers.
           </p>
           
           <div className="focus-grid">

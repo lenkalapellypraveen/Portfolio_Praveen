@@ -56,7 +56,7 @@ export const Skills: React.FC = () => {
     {
       name: "Cloud & Infrastructure",
       skills: [
-        { name: "AWS", level: 4, color: "#232F3E" },
+        { name: "AWS", level: 4, color: "#0089D6" },
         { name: "Azure", level: 4, color: "#0089D6" },
         { name: "GCP", level: 3, color: "#4285F4" },
         { name: "Snowflake", level: 3, color: "#29B5E8" },
