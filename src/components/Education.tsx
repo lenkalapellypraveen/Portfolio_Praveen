@@ -32,7 +32,7 @@ export const Education: React.FC = () => {
       field: "Electronics and Communication Engineering",
       institution: "GRIET",
       location: "Hyderabad, India",
-      period: "2017 - 2021",
+      period: "2016 - 2020",
       achievements: [
         "GPA: 3.3/4.0",
         "Capstone Project: IoT-based Health Monitoring System",
