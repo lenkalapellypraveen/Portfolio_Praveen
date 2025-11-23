@@ -17,61 +17,92 @@ export const Experience: React.FC = () => {
   const experiences: WorkExperience[] = [
     {
       id: 1,
-      title: "Data Scientist",
-      company: "Modak Analytics",
-      location: "Remote",
-      period: "March 2022 - July 2024",
+      title: "Data Engineer II",
+      company: "Travelpro",
+      location: "United States",
+      period: "Apr 2025 - Present",
       responsibilities: [
-        "Applied ML models to financial datasets, improving prediction accuracy by 30%",
-        "Built Python ML pipelines with advanced modeling, reducing deployment time by 40%",
-        "Created SQL dashboards with cloud tools, maintaining 99% data integrity",
-        "Leveraged NLP on financial data with frameworks for scalable customer acquisition",
-        "Presented statistical findings to executives, driving measurable revenue growth"
+        "Architected enterprise-grade graph-centric pipelines with automated validation and retraining triggers, reducing downtime of recommendation and forecasting workflows by 25%.",
+        "Built a Generative AI–driven customer intelligence pipeline using LLMs and embeddings, processing millions of product reviews to deliver analytics-ready insights and reduce research latency by 40%.",
+        "Partnered with marketing teams to develop Bayesian A/B testing and multi-armed bandit datasets, accelerating personalization and reporting by 35%.",
+        "Developed advanced time-series and causal inference pipelines for price elasticity and forecasting, improving inventory planning accuracy by 30%.",
+        "Mentored engineers and analysts, standardizing feature engineering and documentation best practices to enhance team productivity and data quality."
       ],
-      technologies: ["Python", "PyTorch", "TensorFlow", "Statistical modeling", "SQL", "NLP (Natural Language Processing)", "Big data frameworks", "Cloud Technologies"]
+      technologies: [
+        "Python", "Neo4j", "LLMs", "OpenAI API", "Databricks", "Azure SQL", 
+        "Delta Lake", "A/B Testing", "Bayesian Modeling", "Causal Inference", "Docker", "CI/CD"
+      ]
     },
     {
       id: 2,
-      title: "Associate Data Scientist",
+      title: "Data Engineer II",
       company: "Modak Analytics",
-      location: "Remote",
-      period: "April 2021 - March 2022",
+      location: "Hyderabad, India",
+      period: "Mar 2022 - Jul 2024",
       responsibilities: [
-        "Created predictive models reducing financial fraud by 18%",
-        "Applied statistical methods to banking data, increasing marketing ROI by 22%",
-        "Implemented A/B testing frameworks across 3 product lines",
-        "Automated reporting, reducing analysis time from 12 to 2 hours"
+        "Built and managed multi-terabyte e-commerce data pipelines using PySpark and Spark-Scala to support recommendation, demand forecasting, and pricing systems.",
+        "Engineered time-series data pipelines for LSTM/Prophet models, reducing inventory costs by $600K+ and stockouts by 35%.",
+        "Developed real-time pricing and reinforcement learning data workflows integrating competitor, demand, and inventory feeds, improving profit margins by 6.5%.",
+        "Created LTV feature stores using survival analysis and Bayesian optimization, improving retention strategy outcomes by 18%.",
+        "Automated model retraining and pipeline monitoring with CI/CD and Docker on AWS, ensuring continuous reliability and performance."
       ],
-      technologies: ["Python", "R", "Scikit-learn", "Azure", "Spark", "MongoDB", "Predictive modeling", "Statistical analysis", "A/B testing", "Automated reporting", 
-        "Data visualization"]
+      technologies: [
+        "Python", "PySpark", "Spark-Scala", "AWS", "Docker", "Prophet", "LSTM", 
+        "Reinforcement Learning", "CI/CD", "Survival Analysis", "Databricks"
+      ]
     },
     {
       id: 3,
       title: "Data Engineer",
       company: "Modak Analytics",
-      location: "Remote",
-      period: "October 2020 - April 2021",
+      location: "Hyderabad, India",
+      period: "Apr 2021 - Mar 2022",
       responsibilities: [
-        "Built data pipelines using Modak Nabu and Azure, improving accuracy by 20%",
-        "Designed ETL workflows reducing processing time by 35% with 99.9% data quality",
-        "Configured AWS Lambda with CI/CD, saving 50+ manual hours monthly",
-        "Optimized ETL with Python DAG schedulers, reducing processing time by 35%"
+        "Developed clustering-based segmentation datasets using DBSCAN and HDBSCAN, improving campaign targeting by 20%.",
+        "Designed real-time cart abandonment detection pipelines integrating event streams and ensemble feature engineering, recovering $450K+ in lost sales.",
+        "Built Bayesian experimentation and attribution pipelines using Markov Chain and Shapley value techniques, increasing ROAS by 31%.",
+        "Created NLP-driven sentiment tagging systems leveraging BERT for user feedback insights, enabling faster product iteration.",
+        "Split and modularized Databricks pipelines, reducing debugging and hotfix deployment time by 45%."
       ],
-      technologies: ["Python", "PostgreSQL", "PySpark", "Spark-Scala", "ETL workflows", "Modak Nabu", "Azure Data Factory", "AWS Lambda", "CI/CD tools", "Data validation"]
+      technologies: [
+        "Python", "Databricks", "PySpark", "HDBSCAN", "BERT", "Markov Chains",
+        "Shapley Values", "Bayesian Models", "Azure", "NLP", "Real-Time Streaming"
+      ]
     },
     {
       id: 4,
+      title: "Associate Data Engineer",
+      company: "Modak Analytics",
+      location: "Hyderabad, India",
+      period: "Oct 2020 - Apr 2021",
+      responsibilities: [
+        "Architected scalable ETL workflows in Modak Nabu and Azure Data Factory, increasing data warehousing accuracy by 20%.",
+        "Developed fault-tolerant pipelines with validation checks, achieving 99% data quality and reducing processing time by 35%.",
+        "Deployed serverless data migration workflows using AWS Lambda and Python, automating cross-system transfers and saving 50+ manual hours monthly.",
+        "Enhanced orchestration with Python DAG schedulers, reducing pipeline latency by 35%.",
+        "Built Databricks applications for JSON ingestion with completeness checks, preventing malformed data ingestion."
+      ],
+      technologies: [
+        "Python", "Azure Data Factory", "AWS Lambda", "Databricks", "PySpark", 
+        "Modak Nabu", "ETL", "Data Validation", "DAG Scheduling"
+      ]
+    },
+    {
+      id: 5,
       title: "Junior Data Analyst",
       company: "UST Global",
       location: "Hyderabad, India",
-      period: "July 2020 - October 2020",
+      period: "Jul 2020 - Oct 2020",
       responsibilities: [
-        "Created SQL queries to extract key metrics for executive dashboards",
-        "Implemented GitHub version control to improve collaboration and code quality",
-        "Built Tableau dashboards visualizing banking metrics",
-        "Collaborated on data requirements and governance for regulatory compliance"
+        "Developed SQL-based analytical data models for KPI reporting and executive dashboards.",
+        "Built interactive Tableau dashboards visualizing key banking metrics for product teams.",
+        "Implemented GitHub-based version control to improve collaboration and code governance.",
+        "Led data initiatives to define data requirements and ensure regulatory compliance.",
+        "Supported cross-functional analytics projects through clean data modeling and visualization."
       ],
-      technologies: ["Python", "PostgreSQL", "Tableau", "Power BI", "GitHub", "Data visualization"]
+      technologies: [
+        "SQL", "Tableau", "Python", "PostgreSQL", "Power BI", "GitHub", "Data Visualization"
+      ]
     }
   ];
 
