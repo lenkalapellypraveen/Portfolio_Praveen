@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
         <div className="footer-content">
           <div className="footer-info">
             <h3>Praveen Lenkalapelly</h3>
-            <p>Data Scientist | Data Engineer | AI Engineer | Machine Learning Engineer | Cloud Engineer</p>
+            <p>Data Engineer | Machine Learning Engineer | Data Scientist | AI Engineer | Cloud Engineer</p>
           </div>
           
           <div className="footer-social">
@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
             <a href="https://www.linkedin.com/in/praveen-lenkalapelly/" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaLinkedin />
             </a>
-            <a href="mailto:praveen.lenkalapelly9@gmail.com" className="social-icon">
+            <a href="mailto:praveen.lenkalapellyusa@gmail.com" className="social-icon">
               <FaEnvelope />
             </a>
           </div>

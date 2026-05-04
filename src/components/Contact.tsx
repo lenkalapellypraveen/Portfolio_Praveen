@@ -61,7 +61,7 @@ export const Contact: React.FC = () => {
                 <FaEnvelope className="contact-icon" />
                 <div className="method-details">
                   <h4>Email</h4>
-                  <p><a href="mailto:praveen.lenkalapelly9@gmail.com">praveen.lenkalapelly9@gmail.com</a></p>
+                  <p><a href="mailto:praveen.lenkalapellyusa@gmail.com">praveen.lenkalapellyusa@gmail.com</a></p>
                 </div>
               </div>
               
