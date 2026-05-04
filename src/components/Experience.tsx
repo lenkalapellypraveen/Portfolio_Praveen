@@ -18,7 +18,7 @@ export const Experience: React.FC = () => {
     {
       id: 1,
       title: "Data Engineer",
-      company: "Travelpro",
+      company: "Publix",
       location: "United States",
       period: "Apr 2025 - Present",
       responsibilities: [
@@ -26,7 +26,6 @@ export const Experience: React.FC = () => {
         "Designed and maintained OLTP-to-OLAP data pipelines, transforming transactional eCommerce and order data from operational systems into analytics-optimized fact and dimension models for reporting, performance analysis, and downstream consumption.",
         "Built Gold-layer fact and dimension models to support marketing and revenue analytics across multiple campaigns and product categories, enabling consistent and trusted metrics such as spend, revenue, ROAS, CAC, and conversion performance for business stakeholders.",
         "Built a customer intelligence enrichment pipeline that processed large volumes of customer reviews, Q&A, and feedback data, standardizing and clustering text content into interpretable themes to support product research, merchandising decisions, and marketing messaging.",
-        "Modeled customer-product-feedback relationships by loading thousands of curated entities, clusters, and metadata records into a graph-based semantic layer in Neo4j, enabling exploratory analysis and context-aware querying that complemented traditional relational reporting.",
         "Partnered closely with marketing, analytics, and product teams to define metric definitions, attribution logic, and data contracts, ensuring consistent interpretation of KPIs and avoiding misalignment between dashboards and business decisions."
       ],
       technologies: [
@@ -37,9 +36,9 @@ export const Experience: React.FC = () => {
     {
       id: 2,
       title: "Data Engineer",
-      company: "Modak Analytics",
+      company: "Albertsons Companies",
       location: "Hyderabad, India",
-      period: "Apr 2021 - Jul 2024",
+      period: "Apr 2021 - Jul 2023",
       responsibilities: [
         "Designed and built data ingestion and processing pipelines that supported warehouse operations, inventory visibility, and order fulfillment, handling batch workloads and near-real-time event streams, which enabled timely inventory updates for downstream systems.",
         "Implemented idempotent ingestion, archival, and retention strategies, including timestamp-based file tracking, archive folders, and cleanup policies, ensuring duplicate-safe reprocessing and consistent downstream state during retries and corrections.",
@@ -53,8 +52,8 @@ export const Experience: React.FC = () => {
     },
     {
       id: 3,
-      title: "Associate Data Engineer",
-      company: "Modak Analytics",
+      title: "Data Engineer",
+      company: "Bristol Myers Squibb",
       location: "Hyderabad, India",
       period: "Oct 2020 - Apr 2021",
       responsibilities: [
